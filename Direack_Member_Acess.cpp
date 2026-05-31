@@ -6,9 +6,10 @@ class Tanvir
 {
 public:
     int a, b;
+    // static member define "use_static_keyword Which_type_member member name"
     static void c() // when i can use "static" kew word.For this cause olradey created "c member function". And this member access can not need created object.And this object member only one time created all object member use this member
     {
-        cout << "C is access can not created object" << endl;
+        cout << "C is access can not created obje" << endl;
     }
 };
 
